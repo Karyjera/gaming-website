@@ -1,0 +1,416 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    overflow-x: hidden;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(afbeeldingen/achtergrond.png)
+}
+
+
+header {
+    max-width: 100%;
+    height: 65px;
+    text-align: center;
+
+}
+
+
+
+main {
+    height: 100vh;
+    margin: 0;
+}
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    height: 65px;
+    width: 100%;
+    background-image: url('afbeeldingen/navigatiebalk.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+footer nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+footer nav ul li {
+    margin: 0 5px;
+}
+
+footer nav ul li a {
+    padding: 6px 6px;
+    border-radius: 20px;
+}
+
+
+
+p {
+    font-family: "Jersey 15", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+}
+
+
+
+.beginscherm {
+    overflow: hidden;
+}
+
+.beginscherm header img {
+    max-width: 330px;
+    margin-top: 65px;
+}
+
+
+
+
+.beginscherm main img {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: 40px;
+}
+
+
+
+
+.beginscherm main p {
+    position: absolute;
+    top: 200px;
+    text-align: center;
+    width: 74%;
+    transform: scale(0.7);
+    left: 42px;
+    line-height: 1.2;
+}
+
+
+
+
+
+
+#begintube {
+    position: absolute;
+    max-width: 33%;
+    left: 19px;
+    top: 451px;
+}
+
+
+
+
+main a {
+    position: absolute;
+    top: 490px;
+    left: 185px;
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    font-family: "Jersey 15", serif;
+    font-weight: 400;
+    font-style: normal;
+    transform: scale(1.4);
+    border: black 1px solid;
+    box-shadow: 0 0 10px red, 0 0 30px white, 0 0 10px white;
+}
+
+
+
+
+footer a {
+    text-decoration: none;
+    font-family: "Jersey 15", serif;
+    font-weight: 400;
+    font-style: normal;
+    border: white 2px solid;
+    font-size: 19px;
+    margin: 0 10px;
+    white-space: nowrap;
+    padding: 6px;
+    color: white;
+    background-color: grey;
+}
+
+#bezoek {
+    background-color: black;
+}
+
+#collectie {
+    background-color: black;
+}
+
+#duurzaam {
+    background-color: black;
+}
+
+
+body header img {
+    max-width: 60%;
+    position: absolute;
+    top: 5%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+h1 {
+    font-family: "Jersey 15", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    margin-left: 1em;
+}
+
+.text1 p {
+    width: 200px;
+    margin-left: 2em;
+    margin-top: 2em;
+    line-height: 22px;
+    color: white;
+
+}
+
+.text1 img {
+    max-width: 100px;
+    position: absolute;
+    top: 170px;
+    left: 250px;
+}
+
+.text2 p {
+    width: 300px;
+    margin-left: 2em;
+    margin-top: 5em;
+    line-height: 22px;
+    color: white;
+}
+
+.text2 img {
+    max-width: 260px;
+    margin-left: 2em;
+}
+
+.text3 p {
+    width: 300px;
+    margin-left: 2em;
+    margin-top: 5em;
+    line-height: 22px;
+    color: white;
+}
+
+.text3 img {
+    max-width: 250px;
+    margin-left: 2em;
+}
+
+.bezoekland {
+    margin-top: 6em;
+    width: 100%;
+}
+
+.bezoekmain {
+    margin-bottom: 635px;
+}
+
+.text4 p {
+    width: 195px;
+    margin-left: 2em;
+    margin-top: 2em;
+    line-height: 22px;
+    color: white;
+}
+
+.text4 img {
+    position: absolute;
+    max-width: 100px;
+    left: 250px;
+    top: 150px;
+}
+
+.text5 p {
+    width: 300px;
+    margin-left: 2em;
+    margin-top: 5em;
+    line-height: 22px;
+    color: white;
+}
+
+.text5 img {
+    max-width: 300px;
+    margin-left: 2em;
+    margin-top: 1em;
+}
+
+.text6 p {
+    width: 300px;
+    margin-left: 2em;
+    margin-top: 5em;
+    line-height: 22px;
+    color: white;
+}
+
+.text6 img {
+    margin-left: 2em;
+    max-width: 325px;
+}
+
+.text7 p {
+    width: 260px;
+    margin-left: 2em;
+    margin-top: 5em;
+    line-height: 22px;
+    color: white;
+}
+
+.text7 img {
+    margin-left: 2em;
+    max-width: 170px;
+}
+
+.text8 p {
+    width: 180px;
+    margin-left: 2em;
+    margin-top: 5em;
+    line-height: 22px;
+    color: white;
+}
+
+.text8 img {
+    position: absolute;
+    max-width: 160px;
+    left: 210px;
+    top: 1850px;
+}
+
+.text9 p {
+    width: 180px;
+    margin-left: 2em;
+    margin-top: 5em;
+    line-height: 22px;
+    color: white;
+}
+
+.text9 img {
+    position: absolute;
+    max-width: 150px;
+    left: 220px;
+    top: 2270px;
+}
+
+.collectieland {
+    margin-top: 6em;
+    max-width: 100%;
+}
+
+.collectiemain {
+    margin-bottom: 2068px;
+}
+
+.text10 p {
+    width: 200px;
+    margin-left: 2em;
+    margin-top: 2em;
+    line-height: 22px;
+    color: white;
+}
+
+.text10 img {
+    position: absolute;
+    max-width: 170px;
+    top: 190px;
+    left: 200px;
+}
+
+.text11 p {
+    width: 300px;
+    margin-left: 2em;
+    margin-top: 5em;
+    line-height: 22px;
+    color: white;
+}
+
+.text12 p {
+    width: 300px;
+    margin-left: 2em;
+    margin-top: 2em;
+    line-height: 22px;
+    color: white;
+}
+
+.text12 img {
+    max-width: 330px;
+    margin-left: 2em;
+}
+
+.text13 p {
+    width: 280px;
+    margin-left: 2em;
+    margin-top: 5em;
+    line-height: 22px;
+    color: white;
+}
+
+.text14 p {
+    width: 300px;
+    margin-left: 2em;
+    margin-top: 2em;
+    line-height: 22px;
+    color: white;
+}
+
+.text14 img {
+    margin-top: 1em;
+    margin-left: 1em;
+    max-width: 330px;
+}
+
+.text15 p {
+    width: 180px;
+    margin-left: 2em;
+    margin-top: 7em;
+    line-height: 22px;
+    color: white;
+}
+
+.text16 p {
+    width: 180px;
+    margin-left: 2em;
+    margin-top: 2em;
+    line-height: 22px;
+    color: white;
+}
+
+.text16 img {
+    position: absolute;
+    max-width: 100px;
+    left: 240px;
+    top: 1610px;
+}
+
+.duurzaamland {
+    max-width: 100%;
+    margin-top: 6em;
+}
+
+.duurzaammain {
+    margin-bottom: 1628px;
+}
